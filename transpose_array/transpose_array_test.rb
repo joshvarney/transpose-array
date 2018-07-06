@@ -11,5 +11,4 @@ class Test_Transpose_arrays < Minitest::Test
 	def test_assert_that_works_without_being_square
 		assert_equal([[1,4], [2,5], [3,6]], transpose_arr([[1,2,3], [4,5,6]]))
 	end
-	
 end
